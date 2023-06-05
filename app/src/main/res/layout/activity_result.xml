@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/resultname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result name"
+        android:textColor="#673AB7"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#60DACE"
+        android:text="Given Inputs are:"
+        android:textColor="#673AB7"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="Age:"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/resultage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/resultname5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="Weight"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/resultweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/resultname7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="Hieght"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/resultheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/resultname9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="Activity Level"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/activitylevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultname11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#60DACE"
+        android:text="Results:"
+        android:textColor="#673AB7"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/resultname12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="BMR:"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/resultBMR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resultname14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="Daily needs based on activity level:"
+            android:textColor="#673AB7"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/caloryneed"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="calory"
+            android:textColor="#673AB7"
+            android:textSize="34sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
